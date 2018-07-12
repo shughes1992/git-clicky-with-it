@@ -112,11 +112,23 @@ class App extends Component {
 
         }
         else {
+
+          if (this.state.score > this.state.highScore) {
+            this.setState({
+              highScore: this.state.score,
+            })
+          }
+
           this.setState({
-            highScore: this.state.score,
             score: 0,
 
           })
+
+          for (var i=0; i < imageArray.length; i++) {
+            imageArray[i].hasBeenClicked = false;
+          }
+
+
         }
       }
     }

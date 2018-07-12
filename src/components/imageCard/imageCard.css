@@ -1,3 +1,13 @@
+.image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
 
+img {
+    width: 100%
+}
 
 /*# sourceMappingURL=imageCard.css.map */
