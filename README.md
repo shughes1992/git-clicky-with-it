@@ -9,6 +9,6 @@ Click on each image only once. Each time you click on an image, your score will 
 
 </p>
 
-<h2>Play here : </h2>
+<h2>play here : </h2>
 
 https://shughes1992.github.io/git-clicky-with-it/
